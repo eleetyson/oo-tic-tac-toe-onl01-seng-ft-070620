@@ -85,7 +85,6 @@ class TicTacToe
   def play
     until over?
       turn
-      binding.pry
     end
     
     won? ? "Congratulations #{winner}!" : "Cats Game!"
