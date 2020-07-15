@@ -70,7 +70,7 @@ class TicTacToe
     !@board.include?(" ")
   end
   
-  def
+  def draw?
     won? ? true : t
   end
   
