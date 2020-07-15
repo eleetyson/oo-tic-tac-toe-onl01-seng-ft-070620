@@ -63,7 +63,7 @@ class TicTacToe
   end
   
   def won? 
-    WIN_COMBINATIONS.any? {|| }
+    WIN_COMBINATIONS.any? {|c| @board[c[0]] == @board[c[1]] == @board[c[2]] }
   end
   
 end
