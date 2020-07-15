@@ -87,7 +87,6 @@ class TicTacToe
       won? ? "Congratulations #{winner}!" : "Cats Game!"
     else
       turn
-      play
     end
   end
   
