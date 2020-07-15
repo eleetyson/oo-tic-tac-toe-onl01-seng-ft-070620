@@ -84,9 +84,10 @@ class TicTacToe
   
   def play
     if over?
+      won? ? "Congratulations #{winner}!" : "Cats Game!"
+    else
     turn until over?
     
-    won? ? "Congratulations #{winner}!" : "Cats Game!"
   end
   
 end
