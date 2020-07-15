@@ -70,4 +70,8 @@ class TicTacToe
     !@board.include?(" ")
   end
   
+  def
+  
+  end
+  
 end
