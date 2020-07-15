@@ -74,4 +74,8 @@ class TicTacToe
     !won? ? full? : false
   end
   
+  def over?
+    
+  end
+  
 end
