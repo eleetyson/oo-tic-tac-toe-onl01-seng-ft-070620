@@ -71,7 +71,7 @@ class TicTacToe
   end
   
   def
-    won? || full? ? true : t
+    won? ? true : t
   end
   
 end
