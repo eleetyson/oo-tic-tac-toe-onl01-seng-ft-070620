@@ -64,7 +64,6 @@ class TicTacToe
   
   def won? 
     WIN_COMBINATIONS.detect { |c| (@board[c[0]] != " " && @board[c[0]] == @board[c[1]] && @board[c[1]] == @board[c[2]] }
-    binding.pry
   end
   
   def full?
