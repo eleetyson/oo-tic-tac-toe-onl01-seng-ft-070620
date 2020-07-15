@@ -54,6 +54,8 @@ class TicTacToe
     index = input_to_index(input)
     if valid_move?(index)
       
+      
+    else
   end
   
 end
