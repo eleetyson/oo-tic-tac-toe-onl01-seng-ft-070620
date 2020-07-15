@@ -87,7 +87,7 @@ class TicTacToe
       turn
     end
     
-    won? ? "Congratulations #{winner}!" : "Cats Game!"
+    won? ? puts "Congratulations #{winner}!" : puts "Cats Game!"
   end
   
 end
