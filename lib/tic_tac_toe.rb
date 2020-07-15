@@ -83,7 +83,7 @@ class TicTacToe
   end
   
   def play
-    unless over? || 
+    unless full? || draw? 
       turn
     end
     
