@@ -63,7 +63,7 @@ class TicTacToe
   end
   
   def won? 
-    WIN_COMBINATIONS.any?
+    WIN_COMBINATIONS.any? {|| }
   end
   
 end
